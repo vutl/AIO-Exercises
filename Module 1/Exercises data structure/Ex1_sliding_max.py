@@ -8,7 +8,7 @@ def sliding_window_max(list, k):
         max_values.append(max(window))
 
     return max_values
-
+ 
 num_list = [3, 4, 5, 1, -44, 5, 10, 12, 33, 1]
 k = 3
 output = sliding_window_max(num_list, k)
